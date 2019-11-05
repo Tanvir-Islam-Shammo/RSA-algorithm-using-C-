@@ -1,19 +1,5 @@
 # RSA-algorithm-using-C-
-#include<iostream>
-#include<math.h>
- 
-using namespace std;
- 
 
-int gcd(int a, int h)
-{
-    int temp;
-    while(1)
-    {
-        temp = a%h;
-        if(temp==0)
-        return h;
-        a = h;
 #include<iostream>
 #include<math.h>
  
